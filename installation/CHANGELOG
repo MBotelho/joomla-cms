@@ -26,6 +26,32 @@ $ -> Language fix or change
 - -> Removed
 ! -> Note
 
+07-Aug-2013 Jean-Marie Simonet
+ #$ [#31622] Media Manager doesn't cope with folder names that include spaces. Thanks Richard McDaniel
+ # [#31410] Warnings at the offline screen looks bad. Thanks Lu Nguyen
+ # [#31633] Detailed changelog in readme.txt points to SVN which is out of date. Thanks Brian Teeman
+
+03-Aug-2013 Jean-Marie Simonet
+ # [#31411] Show Offline image only if it exists. Thanks Tobias Zulauf
+ # [#31360] The site is offline but anyhow the error page will show (e.g. at a 404 error). Thanks Mihail Irintchev
+ # [#31630] email cloaking inserts space (2.5.13). Thanks Peter Martin and Marc Antoine Thevenet
+
+-------------------- 2.5.14 Stable Release 01-August-2013] ------------------
+
+31-Jul-2013 Jean-Marie Simonet
+ # Missing list of Subcategories in a blog view. Revert [#30150]
+
+-------------------- 2.5.13 Stable Release 25-July-2013] ------------------
+
+21-Jul-2013 Mark Dexter
+ ^ [#31319] registration option disabled by default is safer. Thanks Brian Teeman.
+
+19-Jul-2013 Jean-Marie Simonet
+ # Performance bug - Initial patch partially reverted  2.5 Fix (Regression)/ Thanks Thomas Hunziker
+
+17-Jul-2013 Jean-Marie Simonet
+# [#31477] Remove unneeded GROUP BY and fix duplicate article display. Thanks Thomas Hunziker
+
 06-Jul-2013 Jean-Marie Simonet
  $ [#31290] Add Debug User Group Help Screen language string. Thanks George Wilson
  # [#31348] Regression for plugin filter search with spaces in the title. Reverting
@@ -33,7 +59,7 @@ $ -> Language fix or change
 
 01-Jul-2013 Jean-Marie Simonet
  # [#31280] Loadmodule support for htmlspecialchars in title. Thanks Peter Wiseman
- 
+
 13-Jun-2013 Jean-Marie Simonet
  # [#31108] Fatal erorr right after install. Thanks Klas and Michael Babker
  # [#31120] [2.5] *plug-in manager search give errors and warning for '/','*' and '\
@@ -42,7 +68,7 @@ $ -> Language fix or change
  # [#30150] com_content loads articles before error checking. Thanks Richard McDaniel.
 
 07-Jun-2013 Jean-Marie Simonet
- + [#31106] Added Belgian flag for mod_languages. Thanks Fonny Smets 
+ + [#31106] Added Belgian flag for mod_languages. Thanks Fonny Smets
 
 24-May-2013 Michael Babker
  # [#30994] Untranslated String.  Thanks Jean-Marie Simonet
